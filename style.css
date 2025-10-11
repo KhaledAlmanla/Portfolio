@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: white;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+}
+
+/* 3-column layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-height: 100vh;
+}
+
+.left, .right {
+  background: white;
+}
+
+/* Middle section */
+.middle {
+  background: #959C8A;
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fonts */
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  color: #f5f5f5;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Canvas background */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.middle > * {
+  z-index: 1;
+  position: relative;
+}
