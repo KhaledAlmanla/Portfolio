@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Grid Interaction Study",
+    "subtitle": "p5.js · interaction · generative systems",
+    "images": [
+      "assets/grid-01.jpg",
+      "assets/grid-02.jpg"
+    ],
+    "text": "This project explores proximity-based interaction through a modular grid system. Each unit responds collectively rather than individually, creating a sense of emergent behavior rather than direct control."
+  },
+  {
+    "title": "Sound Sketches",
+    "subtitle": "audio · visual experiments",
+    "images": [
+      "assets/sound-01.jpg"
+    ],
+    "text": "A series of small studies investigating how abstract visual systems can react to sound input. The focus is on texture, rhythm, and non-literal representation."
+  }
+]
