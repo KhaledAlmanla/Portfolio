@@ -1,82 +1,105 @@
-:root {
-  --fg-color: #959C8A;
-  --text-dark: #222;
-  --text-muted: #555;
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 
-* {
-  box-sizing: border-box;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #101214;
+    color: #7A7C80;
+
 }
 
-html, body {
-  margin: 0;
-  background: #fff;
-  color: var(--text-dark);
-  font-family: 'Playfair Display', serif;
+h2,.white{
+    color: #fff;
 }
 
-.page {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 4rem 1.5rem;
+a{
+    color: #7A7C80;
+    text-decoration: none;
+}
+/* section 1 */
+.section-1{
+    padding-top: 20vh;
+    text-align: center;
+    width: 100%;
 }
 
-.site-header {
-  margin-bottom: 4rem;
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
 }
 
-.site-header h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.5rem;
-  margin: 0;
+.section-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
 }
 
-.tagline {
-  margin-top: 0.5rem;
-  color: var(--text-muted);
-  font-size: 1.1rem;
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+/* section 2 */
+.section-2{
+    padding-top: 20vh;
+    width: 70%;
 }
 
-.projects {
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
+.section-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
 }
 
-/* Project entry */
-.project {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+.section-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
 }
 
-.project-header h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-  margin: 0;
+.section-2 a{
+    display:Block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 300px;
+}
+/* animations / utilities */
+.section-2 a:hover{
+    font-size: 1.3rem;
+    color: #9e832b;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-.project-subtitle {
-  color: var(--text-muted);
-  font-size: 1rem;
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.project-images img {
-  width: 100%;
-  display: block;
-  border-radius: 2px;
+.white:hover{
+    position: relative;
+    padding-left: 10px;
 }
 
-.project-text {
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
-
-/* subtle divider feel */
-.project:not(:last-child)::after {
-  content: "";
-  display: block;
-  margin-top: 3rem;
-  height: 1px;
-  background: #eee;
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
 }

@@ -15,5 +15,18 @@
       "assets/sound-01.jpg"
     ],
     "text": "A series of small studies investigating how abstract visual systems can react to sound input. The focus is on texture, rhythm, and non-literal representation."
+  },
+  {
+    "title": "Linsenberg",
+    "subtitle": "Architecture · Residential building",
+    "images": [
+      "assets/sound-01.jpg"
+    ],
+    "text": "A series of small studies investigating how abstract visual systems can react to sound input. The focus is on texture, rhythm, and non-literal representation."
+  },
+  {
+    "title": "Project Name",
+    "subtitle":"Hello world",
+    "text":"This project explores proximity-based interaction through a modular grid system. Each unit responds collectively rather than individually, creating a sense of emergent behavior rather than direct control."
   }
 ]
