@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Khaled Almanla</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khaled Almanla</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="grid-2">
+        <!-- LEFT COLUMN (unchanged) -->
         <div class="section-1">
             <h2>Khaled Almanla</h2>
             <h2>Architekt</h2>
@@ -21,18 +22,46 @@
             <p>Architekt mit Schwerpunkt Digitale Entwurf und BIM</p>
             <h2>Erfahrung</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-        <div class="section-2">
-            <h2>Projects</h2>
-            <a href="#">Fassadeentwicklung mit Stablediffusion und ControlNet</a>
-            <a href="#">Flux Lora Training: Thema "Glass Distortion"</a>
-            <a href="#">Grasshopper Sonne Studie</a>
-            <a href="#">Rhino In Revit: ein BIM Workflow</a>
-            <a href="#">Project 5</a>
-            <a href="#">Project 6</a>
             <h2>Contact</h2>
-            <p>myEmail@email.com</p>
+            <p>arch.khaled.almanla@gmail.com</p>
+        </div>
+        <!-- RIGHT COLUMN -->
+        <div class="section-2">
+            <!-- Static header -->
+            <h2 id="section-title">Projects</h2>
+
+            <!-- Project list view -->
+            <div id="projects-list">
+                <a href="#" data-project="p1">Fassadeentwicklung mit Stable Diffusion</a>
+                <a href="#" data-project="p2">Flux Lora Training – Glass Distortion</a>
+                <a href="#" data-project="p3">Grasshopper Sonnenstudie</a>
+                <a href="#" data-project="p4">Rhino in Revit – BIM Workflow</a>
+            </div>
+            <!-- Project detail view (initially hidden) -->
+            <div id="project-detail" hidden>
+
+                <!-- This wrapper is what will scroll -->
+                <div id="project-detail-scroll">    
+                    <!-- JS will inject content here -->
+                    <!-- Example structure, not hardcoded yet:
+                    <h3>Project title</h3>
+                    <img src="">
+                    <p>Text...</p>
+                    -->
+                </div>
+
+                <!-- Fixed footer / controls -->
+                <div id="project-detail-controls">
+                <button id="back-button">Back</button>
+                </div>
+
+            </div>
+
         </div>
     </div>
+    <!-- DATA FIRST -->
+    <script src="projects.js"></script>
+    <!-- LOGIC SECOND -->
+    <script src="main.js"></script>
 </body>
 </html>

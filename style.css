@@ -1,7 +1,12 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
 .grid-2{
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -46,10 +51,14 @@ a{
     padding: 10px;
 }
 /* section 2 */
-.section-2{
+.section-2 {
     padding-top: 20vh;
-    width: 70%;
+    padding-bottom: 5vh;
+    /*This must be scrolable, only inside this section*/
+    overflow-y: auto;
+    /*height: 100vh;*/
 }
+
 
 .section-2 h2{
     font-size: 1.7rem;
@@ -102,4 +111,11 @@ a{
         padding-left: 1.5rem;
         padding-top: 2rem;
     }
+}   
+
+/* ----- project view behavior, Written by ChatGPT ----- */
+/* back button stays visible */
+#project-detail-controls {
+    flex-shrink: 0;
+    padding-top: 10px;
 }

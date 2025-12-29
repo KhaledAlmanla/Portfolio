@@ -1,34 +1,30 @@
-fetch('projects.json')
-  .then(response => response.json())
-  .then(projects => {
-    const container = document.getElementById('projects');
+const projectsList = document.getElementById("projects-list");
+const projectDetail = document.getElementById("project-detail");
+const projectDetailScroll = document.getElementById("project-detail-scroll");
+const backButton = document.getElementById("back-button");
+const sectionTitle = document.getElementById("section-title");
 
-    projects.forEach(project => {
-      const article = document.createElement('article');
-      article.className = 'project';
+projectsList.addEventListener("click", (e) => {
+  const link = e.target.closest("a[data-project]");
+  if (!link) return;
 
-      const imagesHTML = project.images
-        .map(src => `<img src="${src}" alt="">`)
-        .join('');
+  e.preventDefault();
 
-      article.innerHTML = `
-        <div class="project-header">
-          <h2>${project.title}</h2>
-          <div class="project-subtitle">${project.subtitle}</div>
-        </div>
+  const projectId = link.dataset.project;
+  const project = projects[projectId];
+  if (!project) return;
 
-        <div class="project-images">
-          ${imagesHTML}
-        </div>
+  sectionTitle.textContent = project.title;
+  projectDetailScroll.innerHTML = project.content;
 
-        <div class="project-text">
-          <p>${project.text}</p>
-        </div>
-      `;
+  projectsList.hidden = true;
+  projectDetail.hidden = false;
+});
 
-      container.appendChild(article);
-    });
-  })
-  .catch(err => {
-    console.error('Failed to load projects:', err);
-  });
+backButton.addEventListener("click", () => {
+  projectDetail.hidden = true;
+  projectsList.hidden = false;
+
+  projectDetailScroll.innerHTML = "";
+  sectionTitle.textContent = "Projects";
+});
