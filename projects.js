@@ -3,77 +3,12 @@ const projects = {
     title: "Fassadeentwicklung mit Stable Diffusion",
     content: `
       <h3>Fassadeentwicklung mit Stable Diffusion</h3>
-
+      <img src="images/p1_Cover image.png" alt="Cover Image">
       <p>
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
-        Exploration of AI-assisted facade design using Stable Diffusion
-        and ControlNet. Focus on pattern control and architectural logic.
         Exploration of AI-assisted facade design using Stable Diffusion
         and ControlNet. Focus on pattern control and architectural logic.
       </p>
 
-      <img src="images/project1.jpg" alt="Facade study">
 
       <p>
         Tools: Stable Diffusion, ControlNet, Rhino, Grasshopper.
