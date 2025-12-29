@@ -99,7 +99,12 @@ a{
     position: relative;
     padding-left: 10px;
 }
-img{
+#project-detail-scroll {
+    width: 100%;
+    max-width: 100%;
+}
+
+#project-detail-scroll  img{
     max-width: 100%;
     height: auto;
     display: block;
