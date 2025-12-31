@@ -27,7 +27,7 @@ a {
 .grid-2 {
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
 }
 
 /* Section 1 - Left */
@@ -39,7 +39,7 @@ a {
 
 .section-1 h2 {
     font-size: 1.7rem;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0
 }
 
 .section-1 p {
@@ -61,11 +61,12 @@ a {
 
 /* Section 2 - Right */
 .section-2 {
+    background-color: #1b1e22;
     padding-top: 20vh;
     padding-bottom: 5vh;
-    padding-right: 5vh;
     overflow-y: auto;
-    width: 70%;
+    width: 80%;
+    padding-right: 5vh;
 }
 
 .section-2 h2 {
@@ -100,10 +101,11 @@ a {
 }
 
 #project-detail-scroll img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     display: block;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 /* Controls */
