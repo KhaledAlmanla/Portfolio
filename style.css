@@ -27,7 +27,7 @@ a {
 .grid-2 {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr 1fr;
 }
 
 /* Section 1 - Left */
@@ -63,9 +63,9 @@ a {
 .section-2 {
     background-color: #1b1e22;
     padding-top: 20vh;
-    padding-bottom: 5vh;
+    padding-bottom: 15vh;
     overflow-y: auto;
-    width: 80%;
+    width: 100%;
     padding-right: 5vh;
 }
 
