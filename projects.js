@@ -3,7 +3,7 @@ const projects = {
     title: "Fassadeentwicklung mit Stable Diffusion",
     content: `
       <p>
-        Tools: Stable Diffusion, ControlNet.
+        Tools: Krea Ai, Prome Ai.
       </p>
       <img src="images/p1_Cover image.png" alt="Cover Image">
       <p>
@@ -33,17 +33,39 @@ const projects = {
   p2: {
     title: "Flux Lora Training – Glass Distortion",
     content: `
-      <h3>Flux Lora Training – Glass Distortion</h3>
-
+      <p>
+        Tools: Flux Schnell model, Comfy UI.
+      </p>
       <p>
         Custom LoRA training focused on glass distortion effects
         for architectural visualization.
       </p>
 
-      <img src="images/project2.jpg" alt="Glass distortion study">
+      <img src="images/p2_training data sample.jpg" alt="Glass distortion study">
 
       <p>
-        Experiments with dataset curation and prompt control.
+        For this experiment sample photos were used to train a custom LoRa to achive the effect.
+      </p>
+      <p>
+        The training was done using Comfy UI, an open source Stable Diffusion interface.
+        And it was done on a local machine with a Nvidia RTX 5070 GPU.
+      </p>
+      <img src="images/p2_exterior render.jpg" alt="Glass distortion exterior render">
+      <p>
+        The resulting LoRa was then used to generate architectural visualizations
+        with glass distortion effects.
+      </p>
+      <img src="images/p2_interior render.jpg" alt="Glass distortion interior render">
+      <p>
+        Both exterior and interior renders were created to showcase the effect.
+      </p>
+      <p>
+        The experiment demonstrates the potential of custom LoRa training
+        for enhancing architectural visualizations with specific effects.
+      </p>
+      <img src="images/p2_applied on human figure.jpg" alt="Glass distortion Woman">
+      <p>
+        It even generated some interesting results when prompted on a human figure
       </p>
     `
   }
