@@ -5,4 +5,11 @@ If you have any problems viewing the site correctly, please tell me by sending m
 arch.khaled.almanla@gmail.com
 
 ToDo:
-Maske the about section smaller in mobile view, so the project information wouldn't be low on the screen.
+
+-Mask the about section smaller in mobile view, so the project information wouldn't be low on the screen.
+
+-Make a different link <a> that looks like <h3>. So it would be used for the Protfolio.
+
+-Add descriptions for the photos.
+
+-Add Footer to give credit to giotsere for the template, and add a direct link to the Repo.
