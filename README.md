@@ -14,3 +14,9 @@ arch.khaled.almanla@gmail.com
 - Add descriptions for the photos.
 
 - Add Footer to give credit to giotsere for the template, and add a direct link to the Repo.
+
+- Grid and big text.
+
+- White Background.
+
+- Revise Fonts
